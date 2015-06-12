@@ -2,10 +2,12 @@
 
 ## Warsztaty
 Warsztaty polegają na zainstalowaniu maszyny z Zabbixem, zapoznaniu się z interfejsem webowym oraz wykorzystaniu funkcji autorejestracji agentów w jednym, centralnym serwerze.
-Są one przeprowadzane w formie BYOL *(Bring Your Own Laptop)* - potrzebujesz  laptopa z co najmniej 1GB wolnej pamięci i kawałkiem dysku, którego zabierzesz na warsztaty.
+Są one przeprowadzane w formie BYOL *(Bring Your Own Laptop)* - potrzebujesz  laptopa, którego zabierzesz na warsztaty. 
 
 ### Wymagania
-Potrzebujesz następujących rzeczy, aby w pełni skorzystać z warsztatów:
+
+Laptop powinien posiadać co najmniej **1GB** wolnej pamięci i trochę dysku na odpalenie maszyny wirtualnej. Oczywiście najlepiej jak będzie miał system linuksowy, ale dowolny system, na którym odpalisz VirtualBoxa będzie ok.
+Potrzebujesz też następujących rzeczy, aby w pełni skorzystać z warsztatów:
   * zainstalowane oprogramowanie [vagrant](https://www.vagrantup.com/downloads.html)
   * zainstalowany [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 
