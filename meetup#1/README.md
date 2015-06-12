@@ -14,10 +14,12 @@ Potrzebujesz też następujących rzeczy, aby w pełni skorzystać z warsztatów
 ### Przygotowanie
 Ze względu na czas operacji następujące kroki najlepiej wykonaj przed przyjściem:
   * Ściągnij kod konfiguracji maszyny z repozytorium:
+
   ```
   git clone https://github.com/slashr00t/vagrant-zabbix
   ```
   * Wejdź do katalogu i uruchom maszynę
+
   ```
   vagrant up
   ```
@@ -28,19 +30,23 @@ Ze względu na czas operacji następujące kroki najlepiej wykonaj przed przyjś
 Poniższe działania powinny być wykonane już na warsztatach. Zakładane jest, że masz przygotowane środowisko zgodnie z wcześniejszym opisem.
 
   * Odpal swoją maszynę - wejdź do katalogu z repozytorium (patrz *Przygotowanie* wyżej) i uruchom komendą
+
   ```
   vagrant up
   ```
   * Zaloguj się do maszyny korzystając z konsoli graficznej VirtualBox twojej maszyny wirtualnej - użytkownik **root** z hasłem **vagrant**
   * Zmień nazwę domenową hosta na taką, które zidentyfikuje ciebie (dowolna nazwa) w domenie **meetup.zabbix** - to pozwoli na rejestrację w centralnym systemie
+
   ```
   sudo hostnamectl set-hostname mojnazwa.zabbix.meetup
   ```
   * Otwórz plik konfiguracyjny **/etc/zabbix/zabbix_agentd.conf** swoim ulubionym edytorem i zmień wartość parametru **ServerActive** dodając kolejny adres IP podany przez prowadzącego
+
   ```
     ServerActive=127.0.0.1, A.B.C.D
   ```
   * Zrestartuj usługę agenta zabbixa
+
   ```
   sudo systemctl restart zabbix-agent
   ```
