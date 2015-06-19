@@ -34,7 +34,7 @@ Poniższe działania powinny być wykonane już na warsztatach. Zakładane jest,
   ```
   vagrant up
   ```
-  * Zaloguj się do maszyny korzystając z konsoli graficznej VirtualBox twojej maszyny wirtualnej - użytkownik **root** z hasłem **vagrant**
+  * Zaloguj się do maszyny korzystając z konsoli graficznej VirtualBox twojej maszyny wirtualnej - użytkownik **root** z hasłem **vagrant** (alternatywnie możesz użyć polecenia **vagrant ssh**)
   * Zmień nazwę domenową hosta na taką, która zidentyfikuje ciebie (dowolna nazwa) w domenie **meetup.zabbix** - to pozwoli na rejestrację w centralnym systemie
 
   ```
