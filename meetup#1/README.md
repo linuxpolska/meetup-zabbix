@@ -18,6 +18,9 @@ Ze względu na czas operacji następujące kroki najlepiej wykonaj przed przyjś
   ```
   git clone https://github.com/slashr00t/vagrant-zabbix
   ```
+
+  **lub** bezpośrednio plik zip: https://github.com/slashr00t/vagrant-zabbix/archive/master.zip
+
   * Wejdź do katalogu i uruchom maszynę
 
   ```
